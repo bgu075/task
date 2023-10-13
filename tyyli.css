@@ -1,0 +1,41 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #3129DB;
+    color: #0D0D0D;
+    font-family: 'Bierstand Display', sans-serif;
+    font-size: 20px;
+}
+
+
+nav ul {
+    background-color: #7380FD;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.main-content {
+    text-align: center;
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 10px 0;
+    }
+    .main-content {
+        margin: 10px;
+    }
+}
